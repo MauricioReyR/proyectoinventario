@@ -133,12 +133,152 @@
         <div class="container-fluid">
 
             {{ $slot }}
+            
+            <div class="card-deck">
+                <div class="card">
+                    <img src="{{ asset('images/dr_martin_negra.jpg') }}" alt="Bota Dr Martin">
+                  <div class="card-body">
+                    <h5 class="card-title">Dr Martin</h5>
+                    <p class="card-text">Esta bota es fabricada por nosotros y es un producto de excelente calidad. Material Cuero.</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="{{ asset('images/rsz_18.jpg') }}" alt="Bota">
+                  <div class="card-body">
+                    <h5 class="card-title">Bota Media Caña</h5>
+                    <p class="card-text">Este hermoso producto tambien es de nuestra Fabrica.</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="{{ asset('images/sheraton_negro_lona.jpg') }}" alt="Bota">
+                  <div class="card-body">
+                    <h5 class="card-title">Bota para Montañismo</h5>
+                    <p class="card-text">Este lindo producto es de nuestra fabrica. Mayterial Lona</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-deck">
+                <div class="card">
+                    <img src="{{ asset('images/rustico_ocre.jpg') }}" alt="Zapato rustico Ocre">
+                  <div class="card-body">
+                    <h5 class="card-title">Zapato Media Caña</h5>
+                    <p class="card-text">Este zapato es fabricada por nosotros y es un producto de excelente calidad. Material Cuero.</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="{{ asset('images/sheraton_azul.jpg') }}" alt="Bota">
+                  <div class="card-body">
+                    <h5 class="card-title">Zapatos Media Caña</h5>
+                    <p class="card-text">Este hermoso producto tambien es de nuestra Fabrica. Material Cuero</p>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="{{ asset('images/rsz_rustico_cafex_nobuk_cafe.jpg') }}" alt="Bota">
+                  <div class="card-body">
+                    <h5 class="card-title">Zapatos Media Caña</h5>
+                    <p class="card-text">Este hermoso producto tambien es de nuestra Fabrica. Material Cuero Nobuk</p>
+                  </div>
+                </div>
 
-        </div>
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="{{ asset('images/Hampton_coñac_oscuro.jpg') }}" alt="Zapato rustico Ocre">
+                      <div class="card-body">
+                        <h5 class="card-title">Hampton</h5>
+                        <p class="card-text">Este Bota tipo Martin es fabricada por nosotros y es un producto de excelente calidad. Material Cuero.</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="{{ asset('images/cabrini_negro.jpg') }}" alt="Bota">
+                      <div class="card-body">
+                        <h5 class="card-title">Zapato Caña Media Dama</h5>
+                        <p class="card-text">Este hermoso producto tambien es de nuestra Fabrica. Material Cuero</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="{{ asset('images/cabrini_negra.jpg') }}" alt="Bota">
+                      <div class="card-body">
+                        <h5 class="card-title">Zapatos Media Caña</h5>
+                        <p class="card-text">Este hermoso producto tambien es de nuestra Fabrica. Material Cuero</p>
+                      </div>
+                    </div>
+
+
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="{{ asset('images/sheraton_miel.jpg') }}" alt="Zapato rustico Ocre">
+                      <div class="card-body">
+                        <h5 class="card-title">Sheraton</h5>
+                        <p class="card-text">Este Bota tipo Martin es fabricada por nosotros y es un producto de excelente calidad. Material Cuero.</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="{{ asset('images/nobuk_verde.jpg') }}" alt="Bota">
+                      <div class="card-body">
+                        <h5 class="card-title">Zapato de Vestir</h5>
+                        <p class="card-text">Este hermoso producto tambien es de nuestra Fabrica. Material Cuero</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="{{ asset('images/nobuk_esquirrel.jpg') }}" alt="Bota">
+                      <div class="card-body">
+                        <h5 class="card-title">Bota Media Caña</h5>
+                        <p class="card-text">Este hermoso producto tambien es de nuestra Fabrica. Material Cuero</p>
+                      </div>
+                    </div>
+                    
+                    
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="{{ asset('images/proceso_calzado.jpg') }}" alt="Proceso de selección">
+                      <div class="card-body">
+                        <h5 class="card-title">Proceso de selección de materiales</h5>
+                        <p class="card-text">Este Bota es fabricada por nosotros y es un producto de excelente calidad. Material Cuero.</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="{{ asset('images/rsz_117.jpg') }}" alt="Raller">
+                      <div class="card-body">
+                        <h5 class="card-title">Bota</h5>
+                        <p class="card-text">Este hermoso producto tambien es de nuestra Fabrica. Material Cuero</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="{{ asset('images/rsz_123.jpg') }}" alt="Bota">
+                      <div class="card-body">
+                        <h5 class="card-title">Bota Media Caña</h5>
+                        <p class="card-text">Este Bota es fabricada por nosotros y es un producto de excelente calidad. Material Cuero.</p>
+                      </div>
+                    </div>
+
+                    
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="{{ asset('images/rsz_18.jpg') }}" alt="Zapato rustico Ocre">
+                      <div class="card-body">
+                        <h5 class="card-title">Bota Caña Madia</h5>
+                        <p class="card-text">Este Bota es fabricada por nosotros y es un producto de excelente calidad. Material Cuero.</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="{{ asset('images/taller_de_trabajo.jpg') }}" alt="Raller">
+                      <div class="card-body">
+                        <h5 class="card-title">Taller de los Artesanos</h5>
+                        <p class="card-text">Estos hermosos productos son terminados a mano</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="{{ asset('images/tokio_terracota.jpg') }}" alt="Bota">
+                      <div class="card-body">
+                        <h5 class="card-title">Bota Media Caña</h5>
+                        <p class="card-text">Este Bota es fabricada por nosotros y es un producto de excelente calidad. Material Cuero.</p>
+                      </div>
+                    </div>
+              </div>
         <!-- End Container fluid  -->
 
         <!-- footer -->
-        <footer class="footer text-center text-muted">Adminmart Template, <a href="https://github.com/rezaamini-ir/laravel-easypanel">EasyPanel</a> Package.</footer>
+        
         <!-- End footer -->
     </div>
 </div>
